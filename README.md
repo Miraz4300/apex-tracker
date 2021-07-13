@@ -15,13 +15,13 @@ Provides players leaderboard to track gameplay history from Origin, PSN & from X
 
 
 ### Made with:
-> Npm
-> Vue
-> JavaScript
-> HTML
-> CSS
+> 1. Npm
+> 2. Vue
+> 3. JavaScript
+> 4. HTML
+> 5. CSS
 
 
 ### Future Features:
-> Apex Legends theme music on background
-> Download section for theme music & wallpaper
+> 1. Apex Legends theme music on background
+> 2. Download section for theme music & wallpaper
