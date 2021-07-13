@@ -1,0 +1,30 @@
+{
+  "name": "apex-tracker",
+  "version": "1.0.0",
+  "description": "Apex Legends Stats Tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miraz4300/apex-tracker.git"
+  },
+  "author": "Miraz Hossain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Miraz4300/apex-tracker/issues"
+  },
+  "homepage": "https://github.com/Miraz4300/apex-tracker#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
