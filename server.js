@@ -13,7 +13,7 @@ if(process.env.NODE_ENV === 'development'){
 }
 
 // Profile Routes
-app.use('/api', require('./routes/core'));
+app.use('/api/v1/profile', require('./routes/profile'));
 
 const port = process.env.PORT || 8080;
 
