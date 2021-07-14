@@ -1,6 +1,6 @@
 <template>
-    <section class="search">
-        <h1> Apex Legends Track Stats </h1>
+    <section class="search shadow">
+        <h1> Apex Legends Stats Tracker </h1>
         <form v-on:submit.prevent="onSubmit">
             <div class="form-group">
                 <label for="platform">Platform</label>
