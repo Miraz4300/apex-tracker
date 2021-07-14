@@ -41,7 +41,7 @@ ul {
   background: var(--primary-color);
 }
 .body-bg-image {
-  background: var(--primary-color) url("./assets/pathfinder.png") no-repeat top
+  background: var(--primary-color) url("./assets/apextracker-bg.jpg") no-repeat top
     center;
 }
 .container {
