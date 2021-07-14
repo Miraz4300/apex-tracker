@@ -37,9 +37,12 @@ export default {
     methods: {
         onSubmit(){
             if(!this.gamertag){
-                console.log("Please enter gamertag!");
+                this.$toasted.show("Please enter gamertag!", {
+                    duration: 5000,
+                    icon: 'exclamation-circle'
+                });
             } else{
-                console.log("empty/failed")
+                this.$router.push(`/profile/${this.platform}/${this.gamertag}`);
             }
         }
     }
