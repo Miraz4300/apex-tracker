@@ -1,16 +1,17 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import { createWebHistory, createRouter } from "vue-router";
 import Search from './components/Search'
 
-Vue.use(Router);
+const routes = [
+  {
+    path: "/",
+    name: "search",
+    component: Search,
+  },
+];
 
-export default new Router({
-    mode: 'history',
-    routes: [
-      {
-        path: "/",
-        name: "search",
-        component: Search,
-      }
-    ]
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
 });
+
+export default router;
