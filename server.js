@@ -15,7 +15,7 @@ if(process.env.NODE_ENV === 'development'){
 // Profile Routes
 app.use('/api/v1/profile', require('./routes/profile'));
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8800;
 
 app.listen(port, () => {
     console.log(`Server is running in ${process.env.NODE_ENV} mode on port ${port}`);
