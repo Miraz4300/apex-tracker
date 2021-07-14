@@ -14,7 +14,7 @@ Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
 
 
 ## Issues:
-```connfig.env``` file insn't published due to security issue. 
+```config.env``` file insn't published due to security issue. 
 
 
 ### Future Deployment:
