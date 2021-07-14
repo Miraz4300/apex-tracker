@@ -11,7 +11,11 @@
 
 #### Apex Legends Stats Public Tracker
 Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
-# 
+
+
+## Issues:
+```connfig.env``` file insn't published due to security issue. 
+
 
 ### Future Deployment:
 1. Azure
@@ -20,7 +24,7 @@ Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
 ### Future Available Access Domain:
 1. https://apex-tracker.deepspacelab.dev/
 2. http://mirazhossain.me/apex-tracker/
-
+#
 
 ### Made with:
 > 1. Npm
@@ -28,7 +32,6 @@ Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
 > 3. JavaScript
 > 4. HTML
 > 5. CSS
-
 
 ### Future Features:
 > 1. Apex Legends theme music on background
