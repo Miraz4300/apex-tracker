@@ -1,1 +1,4 @@
 node_modules/
+.deployment
+config.env
+.vscode/settings.json
