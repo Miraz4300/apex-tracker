@@ -18,7 +18,7 @@ export default {
 <style>
   img {
       width: 200px;
-      margin-top: 0.5rem;
+      margin-top: 0.8rem;
   }
   .center {
   display: block;

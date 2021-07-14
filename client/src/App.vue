@@ -58,7 +58,7 @@ body, .search::before {
 }
 .search {
   border: 2px rgb(0, 0, 0) solid;
-  margin-top: 1rem;
+  margin-top: 9rem;
   padding: 2rem;
   position: relative;
   overflow: hidden;
