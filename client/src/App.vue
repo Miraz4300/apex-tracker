@@ -1,18 +1,16 @@
 <template>
 <div class="container">
   <Header />
-  <Search />
+  <router-view />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header"
-import Search from "./components/Search"
 export default {
   name: 'App',
   components: {
-    Header,
-    Search
+    Header
   }
 }
 </script>
@@ -43,7 +41,7 @@ ul {
   background: var(--primary-color);
 }
 .body-bg-image {
-  background: var(--primary-color) url("./assets/pathfinder.png") no-repeat top
+  background: var(--primary-color) url("./assets/apextracker-bg.jpg") no-repeat top
     center;
 }
 .container {

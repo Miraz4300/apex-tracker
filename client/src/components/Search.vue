@@ -33,6 +33,18 @@ export default {
     },
     beforeCreate(){
         document.body.className = "body-bg-image"
+    },
+    methods: {
+        onSubmit(){
+            if(!this.gamertag){
+                this.$toasted.show("Please enter gamertag!", {
+                    duration: 5000,
+                    icon: 'exclamation-circle'
+                });
+            } else{
+                this.$router.push(`/profile/${this.platform}/${this.gamertag}`);
+            }
+        }
     }
 };
 </script>
