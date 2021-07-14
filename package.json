@@ -28,5 +28,10 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
   }
 }
