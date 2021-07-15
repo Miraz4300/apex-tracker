@@ -1,6 +1,6 @@
 {
   "name": "apex-tracker",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "Apex Legends Stats Tracker",
   "main": "server.js",
   "scripts": {
