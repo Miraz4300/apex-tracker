@@ -1,10 +1,11 @@
 <p align="center">
   <img src="https://blob.deepspacelab.dev/github/ApexTracker.png" />
-  <img src="https://img.shields.io/github/license/Miraz4300/apex-tracker?logo=Github" alt="GitHub"/>
-  <img src="https://img.shields.io/npm/v/vuejs?color=%234FC08D&label=vue.js&logo=Vue.js" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/node-v14.17.3-%23339933?style=flat&logo=node.js" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/vue.js-v3.1.4-%234FC08D?style=flat&logo=vue.js" alt="Vue.js"/>
+  <img src="https://img.shields.io/npm/v/express?color=%23000000&label=express&logo=Express" alt="Express"/>
+  <img src="https://img.shields.io/github/issues-pr/Miraz4300/apex-tracker?logo=github" alt="GitHub open pull requests"/>
   <img src="https://img.shields.io/github/issues-pr-closed/Miraz4300/apex-tracker?logo=Github%20Actions" alt="GitHub closed pull requests"/>
-  <img src="https://img.shields.io/github/repo-size/Miraz4300/apex-tracker?logo=Github" alt="GitHub repo size"/>
-  <img src="https://img.shields.io/website?down_color=red&down_message=offline&logo=Microsoft%20Edge&up_color=blue&up_message=online&url=https%3A%2F%2Fapex-tracker.deepspacelab.dev" alt="Website"/>
+  <img src="https://img.shields.io/website?down_color=red&down_message=offline&label=App%20Service&logo=Microsoft%20Azure&up_color=%230078D4&up_message=online&url=https%3A%2F%2Fapex-tracker.deepspacelab.dev" alt="Azure-App-Service"/>
 </p>
 
 # Apex-Tracker
@@ -13,7 +14,7 @@
 Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
 
 
-## Issues:
+## Note:
 ```config.env``` file insn't published due to security issue. 
 
 
