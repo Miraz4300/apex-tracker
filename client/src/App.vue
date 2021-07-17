@@ -1,18 +1,18 @@
 <template>
-<div class="container">
-  <Header />
-  <router-view />
+  <div class="container">
+    <Header />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Header from "./components/Header"
+import Header from "./components/Header";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Header
-  }
-}
+    Header,
+  },
+};
 </script>
 
 <style>
@@ -47,13 +47,14 @@ ul {
 }
 
 .body-bg-image {
-  background: var(--primary-color) url("./assets/apextracker-bg.jpg") no-repeat top
-    center;
+  background: var(--primary-color) url("./assets/apextracker-bg.jpg") no-repeat
+    top center;
 }
 
-body, .search::before {
-  background: var(--primary-color) url("./assets/apextracker-bg.jpg") no-repeat top
-    center;
+body,
+.search::before {
+  background: var(--primary-color) url("./assets/apextracker-bg.jpg") no-repeat
+    top center;
   background-attachment: fixed;
 }
 .search {
@@ -131,5 +132,67 @@ textarea {
     background: var(--primary-color);
   }
 }
+
+
+
+
+
+
+/* Alpha build of acrylic frontend */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right-top, #65dfc9, #6cdbed);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255,255,255,0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+
+
 
 </style>
