@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://blob.deepspacelab.dev/github/ApexTracker.png" />
-  <img src="https://img.shields.io/badge/node-v14.17.3-%23339933?style=flat&logo=node.js" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/vue.js-v3.1.4-%234FC08D?style=flat&logo=vue.js" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/node-v14.17.4-%23339933?style=flat&logo=node.js" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/vue.js-v3.2.1-%234FC08D?style=flat&logo=vue.js" alt="Vue.js"/>
   <img src="https://img.shields.io/npm/v/express?color=%23000000&label=express&logo=Express" alt="Express"/>
   <img src="https://img.shields.io/github/issues-pr/Miraz4300/apex-tracker?logo=github" alt="GitHub open pull requests"/>
   <img src="https://img.shields.io/github/issues-pr-closed/Miraz4300/apex-tracker?logo=Github%20Actions" alt="GitHub closed pull requests"/>
