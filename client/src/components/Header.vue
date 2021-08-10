@@ -1,6 +1,6 @@
 <template>
     <header>
-        <img :src="image">
+        <img :src="image" class="center">
     </header>
 </template>
 
@@ -17,8 +17,14 @@ export default {
 
 <style>
   img {
-      width: 300px;
+      width: 200px;
+      margin-top: 0.8rem;
   }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   @media(max-width: 700px){
       img{
