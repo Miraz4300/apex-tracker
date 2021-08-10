@@ -13,6 +13,10 @@
 #### Apex Legends Stats Public Tracker
 Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
 
+## :construction: In-Development
+- [x] Acrylic effect
+- [ ] Material design on legends stats page
+- [ ] Donation system with SSLCOMMERZ
 
 ## Note:
 ```config.env``` file insn't published due to security issue. 
