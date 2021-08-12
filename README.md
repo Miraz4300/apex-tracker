@@ -10,13 +10,13 @@
 
 # Apex-Tracker
 
-#### Apex Legends Stats Public Tracker
-Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
+#### [Apex Legends](https://www.ea.com/games/apex-legends) Stats Tracker. API provided by: [Tracker Network](https://tracker.gg/)
+Provides players leaderboard to track gameplay history from Origin, PSN & Xbox. 
 
 ## :construction: In-Development
-- [x] Acrylic effect
+- [x] [Acrylic](https://docs.microsoft.com/en-us/windows/apps/design/style/acrylic) material effect
 - [ ] Material design on legends stats page
-- [ ] Donation system with SSLCOMMERZ
+- [ ] Donation system with [SSLCOMMERZ](https://github.com/sslcommerz/SSLCommerz-NodeJS)
 
 ## Note:
 ```config.env``` file insn't published due to security issue. 
@@ -40,4 +40,4 @@ Provides players leaderboard to track gameplay history from Origin, PSN & Xbox
 
 ### Future Features:
 > 1. Apex Legends theme music on background
-> 2. Download section for theme music & wallpaper
+> 2. Download section for theme music & loading screen wallpaper
