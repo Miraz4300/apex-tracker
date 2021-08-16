@@ -4,10 +4,10 @@
   "description": "Apex Legends Stats Tracker",
   "main": "server.js",
   "scripts": {
-    "start": "\"npm run azure\"",
+    "start": "node server",
     "server": "nodemon server",
     "client": "npm run serve --prefix client",
-    "azure": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
