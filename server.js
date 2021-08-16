@@ -6,12 +6,12 @@ dotenv.config({ path: './config.env' });
 
 const app = express(); 
 
-app.use('/api/v1/profile', require('./routes/profile'));
-
 // Dev logging
 if(process.env.NODE_ENV === 'development'){
     app.use(morgan('dev'));
 }
+
+app.use('/api/v1/profile', require('./routes/profile'));
  
 const port = process.env.PORT || 8800;
 
