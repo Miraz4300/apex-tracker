@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://blob.octocarbon.codes/github/ApexTracker.png" />
+  <img src="https://blob.miraz-hossain.me/github/ApexTracker.png" />
   <img src="https://img.shields.io/badge/node-v14.17.4-%23339933?style=flat&logo=node.js" alt="Node.js"/>
   <img src="https://img.shields.io/badge/vue.js-v3.2.1-%234FC08D?style=flat&logo=vue.js" alt="Vue.js"/>
   <img src="https://img.shields.io/npm/v/express?color=%23000000&label=express&logo=Express" alt="Express"/>
@@ -27,8 +27,7 @@ Provides players leaderboard to track gameplay history from Origin, PSN & Xbox.
 2. Heroku
 
 ### Future Available Access Domain:
-1. https://apex-tracker.deepspacelab.dev/
-2. http://mirazhossain.me/apex-tracker/
+1. https://apextracker.miraz-hossain.me/
 #
 
 ### Made with:
